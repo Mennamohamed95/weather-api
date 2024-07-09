@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>weather</title>
+</head>
+<body>
+
+   
+    <nav class="navbar navbar-expand-lg bg-body-tertiary  d-flex justify-content-between py-3">
+        <div class="container d-flex ">
+            <img  src="images/logo@2x.png" alt="">
+          <a class="navbar-brand text-white mb-0 h1 px-2" href="index.html">Weather</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav gx-2 ">
+              <li class="nav-item border border-1 rounded-pill border-info text-info me-3">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3 ">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item  me-3">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item me-3 ">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item me-3 ">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="main-bg container-fluid py-5">
+        <div class="container pt-0 pb-5 position-relative"> 
+            <input class=" form-control rounded-pill p-2 searchLocation" type="search" placeholder="Find your location...">
+            <input class="btn btn-info rounded-pill find" type="button" value="Find">
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+              <div class="col-lg-4  card-bg rounded-2 px-0 today">
+                
+
+            </div>
+                <div class="col-lg-4 card-bg2 rounded-2 px-0  text-center tomorrow">
+                   
+
+                </div>
+                <div class="col-lg-4 card-bg rounded-2 px-0  text-center afterTomorrow">
+                   
+
+                </div>
+            </div>
+        </div>
+
+
+        
+
+
+        
+        
+      </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
